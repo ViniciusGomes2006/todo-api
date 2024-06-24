@@ -1,0 +1,25 @@
+# Arquivos temporários do sistema
+*.log
+*.bak
+*.swp
+*.temp
+*.env
+
+# Diretórios de dependências
+node_modules/
+vendor/
+
+# Diretórios de build ou compilação
+dist/
+build/
+out/
+
+# Ambientes e Configurações
+.env
+config/development.json
+
+# Ferramentas específicas
+.DS_Store            # Arquivos criados pelo macOS
+Thumbs.db            # Arquivos criados pelo Windows
+.idea/               # Configurações do IntelliJ IDEA e WebStorm
+.vscode/             # Configurações do Visual Studio Code

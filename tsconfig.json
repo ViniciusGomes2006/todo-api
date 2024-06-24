@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2018", /* O Node.js 10 suporta ES2018. Ajuste de acordo com a sua versão do Node.js. */
+    "module": "commonjs", /* O sistema de módulos comum em Node.js. */
+    "lib": [
+      "es2018",
+      "dom"
+    ], /* Bibliotecas padrão para o ES2018 e dom (por causa de coisas como 'fetch'). */
+    /* Path and Directories */
+    "outDir": "./dist", /* O diretório de saída para o código compilado. */
+    "rootDir": "./src", /* O diretório raiz dos arquivos TypeScript. */
+    "resolveJsonModule": true, /* Permitir importação de arquivos .json. */
+    "baseUrl": "./", /* Base directory to resolve non-relative module names. */
+    /* Modules */
+    "esModuleInterop": true, /* Emitir JavaScript adicional para suportar a importação de módulos CommonJS. */
+    /* Type Checking */
+    "strict": true, /* Ativar todas as opções rigorosas de verificação de tipo. */
+    "skipLibCheck": true, /* Pule a verificação de tipo em todos os arquivos .d.ts. */
+    /* Extras */
+    "forceConsistentCasingInFileNames": true, /* Certifique-se de que a capitalização seja correta nas importações. */
+    /* Source Maps */
+    "sourceMap": true, /* Produz mapas de origem para facilitar a depuração. */
+    "inlineSourceMap": false, /* Mantenha os mapas de origem separados dos arquivos JS. */
+    "inlineSources": true /* Inclua o código-fonte TypeScript nos mapas de origem. */
+  },
+  "include": [
+    "src/**/*.ts"
+  ], /* Inclua todos os arquivos TypeScript na pasta 'src' e subpastas. */
+  "exclude": [
+    "node_modules", /* Não inclua 'node_modules'. */
+    "**/*.test.ts", /* Se você tiver testes, pode escolher excluí-los da compilação principal. */
+    "**/*.spec.ts"
+  ]
+}
